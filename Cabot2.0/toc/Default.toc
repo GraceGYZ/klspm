@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map>
+<map type="toc">
 <title>Table of Contents</title>
-<page href="../contents/Introduction_and_Features.htm"></page>
+<page href="../contents/Introduction_and_Features.htm" format="html" processing-role="normal"></page>
+<book navtitle="Input Properties" format="html" processing-role="normal"></book>
+<book navtitle="Input" format="html" processing-role="normal"></book>
+<page href="../contents/Getting_Started.htm" format="html" processing-role="normal"></page>
 </map>
