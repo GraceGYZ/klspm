@@ -55,24 +55,3 @@ p.book-glo-term {
   font-weight: bold;
 }
 p.book-glo-definition {}
-ol.Decimal {
-  list-style: decimal;
-}
-ol.RoundSquare {
-  list-style: disc;
-}
-ol.RoundSquare>li>ol {
-  list-style: square;
-}
-ol.RoundSquare>li>ol>li>ol {
-  list-style: circle;
-}
-ol.RoundSquare>li>ol>li>ol>li>ol {
-  list-style: disc;
-}
-ol.RoundSquare>li>ol>li>ol>li>ol>li>ol {
-  list-style: square;
-}
-ol.RoundSquare>li>ol>li>ol>li>ol>li>ol>li>ol {
-  list-style: circle;
-}
