@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preset>
+  <title>Cabot2.0</title>
   <content>
-    <index type="boolean">true</index>
     <toc>
       <path>../../toc/Default.toc</path>
       <name>Default</name>
     </toc>
+    <relativeOutputPath type="boolean">false</relativeOutputPath>
+    <index type="boolean">true</index>
     <glossary>
       <path>../../glossary/Default.glo</path>
       <name>Default</name>
     </glossary>
-    <masterpage></masterpage>
     <brs type="array"></brs>
+    <language>
+      <name>en_US</name>
+      <code type="number">1033</code>
+      <displayName>English (US)</displayName>
+    </language>
+    <masterpage></masterpage>
     <mapFiles type="array"></mapFiles>
     <includeExpandingText type="boolean">false</includeExpandingText>
     <includeDropdownText type="boolean">false</includeDropdownText>
-    <relativeOutputPath type="boolean">false</relativeOutputPath>
   </content>
+  <type>epub</type>
+  <outputPath>D:/文档/Cabot/</outputPath>
+  <name>eBook</name>
   <starterPage>Default.epub</starterPage>
+  <defaultTopic></defaultTopic>
   <ebooktype>
     <displayName>EPUB</displayName>
     <name>EPUB</name>
@@ -30,13 +40,9 @@
   </search>
   <sitemap>
     <use type="boolean">false</use>
-    <changeFrequency></changeFrequency>
     <helpBaseURL></helpBaseURL>
+    <changeFrequency></changeFrequency>
   </sitemap>
-  <name>eBook</name>
-  <type>epub</type>
-  <defaultTopic></defaultTopic>
-  <title>Cabot2.0</title>
-  <outputPath>C:/Users/yingz/Documents/My RoboHelp Projects/outputs/Cabot2.0/eBook</outputPath>
   <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
 </preset>

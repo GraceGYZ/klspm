@@ -1,64 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preset>
+  <title>Cabot2.0</title>
   <content>
-    <index type="boolean">true</index>
-    <generateMapFiles type="boolean">true</generateMapFiles>
-    <generateBRS type="boolean">true</generateBRS>
     <toc>
       <path>../../toc/Default.toc</path>
       <name>Default</name>
     </toc>
+    <relativeOutputPath type="boolean">false</relativeOutputPath>
+    <index type="boolean">true</index>
     <glossary>
       <path>../../glossary/Default.glo</path>
       <name>Default</name>
     </glossary>
-    <masterpage></masterpage>
     <brs type="array"></brs>
+    <masterpage></masterpage>
     <includeExpandingText type="boolean">false</includeExpandingText>
     <includeDropdownText type="boolean">false</includeDropdownText>
-    <relativeOutputPath type="boolean">false</relativeOutputPath>
   </content>
-  <starterPage>default.htm</starterPage>
-  <search>
-    <context type="boolean">true</context>
-    <contextLimit type="number">100</contextLimit>
-    <suggestion type="boolean">true</suggestion>
-    <fuzzy type="boolean">true</fuzzy>
-    <glossary type="boolean">true</glossary>
-    <showSpeclChars type="boolean">false</showSpeclChars>
-    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
-  </search>
-  <name>Knowledge Base</name>
   <type>kb</type>
-  <title>Cabot2.0</title>
   <outputPath>C:/Users/yingz/Documents/My RoboHelp Projects/outputs/Cabot2.0/Knowledge Base</outputPath>
-  <generateMapFiles type="boolean">true</generateMapFiles>
-  <generateBRS type="boolean">true</generateBRS>
+  <name>Knowledge Base</name>
+  <starterPage>default.htm</starterPage>
   <kbtype>
     <name>aem</name>
     <displayName>AEM</displayName>
   </kbtype>
   <kbtarget>
-    <zendesk>
-      <useflattoc type="boolean">false</useflattoc>
-      <useinlinestyles type="boolean">true</useinlinestyles>
-      <usedocs type="boolean">true</usedocs>
-      <useimages type="boolean">true</useimages>
-      <removetitle type="boolean">true</removetitle>
-      <usejs type="boolean">true</usejs>
-      <draft type="boolean">true</draft>
-    </zendesk>
     <salesforce>
       <useinlinestyles type="boolean">true</useinlinestyles>
-      <usedocs type="boolean">true</usedocs>
-      <useimages type="boolean">true</useimages>
-      <removetitle type="boolean">true</removetitle>
       <draft type="boolean">true</draft>
+      <useimages type="boolean">true</useimages>
+      <usedocs type="boolean">true</usedocs>
+      <removetitle type="boolean">true</removetitle>
     </salesforce>
+    <zendesk>
+      <useinlinestyles type="boolean">true</useinlinestyles>
+      <useimages type="boolean">true</useimages>
+      <draft type="boolean">true</draft>
+      <usedocs type="boolean">true</usedocs>
+      <usejs type="boolean">true</usejs>
+      <useflattoc type="boolean">false</useflattoc>
+      <removetitle type="boolean">true</removetitle>
+    </zendesk>
     <zoho>
       <useinlinestyles type="boolean">true</useinlinestyles>
-      <usedocs type="boolean">true</usedocs>
       <useimages type="boolean">true</useimages>
+      <usedocs type="boolean">true</usedocs>
       <removetitle type="boolean">true</removetitle>
       <useflattoc type="boolean">false</useflattoc>
       <draft type="boolean">true</draft>
@@ -66,13 +53,13 @@
       <usedesc type="boolean">true</usedesc>
     </zoho>
     <servicenow>
-      <removetitle type="boolean">true</removetitle>
-      <useflattoc type="boolean">false</useflattoc>
-      <draft type="boolean">true</draft>
-      <usetags type="boolean">true</usetags>
       <useinlinestyles type="boolean">true</useinlinestyles>
-      <usedocs type="boolean">true</usedocs>
       <useimages type="boolean">true</useimages>
+      <usedocs type="boolean">true</usedocs>
+      <usetags type="boolean">true</usetags>
+      <draft type="boolean">true</draft>
+      <useflattoc type="boolean">false</useflattoc>
+      <removetitle type="boolean">true</removetitle>
     </servicenow>
     <aem>
       <aemuseinlinestyles type="boolean">false</aemuseinlinestyles>
@@ -83,6 +70,21 @@
       <usedocs type="boolean">true</usedocs>
       <usejs type="boolean">false</usejs>
     </aem>
+    <publishstatus type="array"></publishstatus>
   </kbtarget>
+  <search>
+    <suggestion type="boolean">true</suggestion>
+    <context type="boolean">true</context>
+    <contextLimit type="number">100</contextLimit>
+    <glossary type="boolean">true</glossary>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+    <fuzzy type="boolean">true</fuzzy>
+  </search>
   <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <serversStatus type="array"></serversStatus>
+  <republish type="boolean">false</republish>
+  <generateMapFiles type="boolean">true</generateMapFiles>
+  <generateBRS type="boolean">true</generateBRS>
 </preset>

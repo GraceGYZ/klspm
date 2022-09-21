@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <translation>
-  <machineTranslateSelected type="boolean">true</machineTranslateSelected>
+  <machineTranslateSelected type="boolean">false</machineTranslateSelected>
   <selectedTranslationProfile></selectedTranslationProfile>
-  <selectedTranslationMethod>machine</selectedTranslationMethod>
+  <selectedTranslationMethod>manual</selectedTranslationMethod>
   <languages>en_US</languages>
   <targetPath></targetPath>
   <importTargetPath>C:/Users/TEST/Documents/My RoboHelp Projects/test4/en_US/Cabot2.0</importTargetPath>
