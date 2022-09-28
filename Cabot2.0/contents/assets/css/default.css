@@ -121,3 +121,6 @@ ul.Circle {
 figure {
   margin-left: 0 px;
 }
+ul.Square {
+  list-style: square;
+}

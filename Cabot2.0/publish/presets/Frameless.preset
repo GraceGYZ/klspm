@@ -23,7 +23,6 @@
       <code type="number">1033</code>
       <displayName>English (US)</displayName>
     </language>
-    <masterpage></masterpage>
     <mapFiles type="array"></mapFiles>
     <includeExpandingText type="boolean">true</includeExpandingText>
     <includeDropdownText type="boolean">true</includeDropdownText>
@@ -34,13 +33,18 @@
   <name>Frameless</name>
   <starterPage>index.htm</starterPage>
   <defaultTopic>
-    <name>Introduction_and_Features</name>
-    <path>../../contents/Introduction_and_Features.htm</path>
+    <name>Getting_Started.htm</name>
+    <path>../../contents/Getting_Started.htm</path>
   </defaultTopic>
   <encoding>
     <name>utf-8</name>
     <displayName>Unicode (UTF-8)</displayName>
   </encoding>
+  <hpTopicPath></hpTopicPath>
+  <layout>
+    <tpFooterTopicPath></tpFooterTopicPath>
+  </layout>
+  <downloadPDF></downloadPDF>
   <chatbot>
     <name>dialogflow</name>
     <displayName>Google Dialogflow</displayName>
@@ -64,6 +68,9 @@
     <helpBaseURL></helpBaseURL>
     <changeFrequency></changeFrequency>
   </sitemap>
+  <skin>
+    <path>../skins/Dark/frameless.skn</path>
+  </skin>
   <createThumbNails type="boolean">false</createThumbNails>
   <favicon></favicon>
   <patchHomepage type="boolean">true</patchHomepage>

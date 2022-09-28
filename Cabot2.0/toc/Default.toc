@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map type="toc">
 <title>Table of Contents</title>
-<page href="../contents/Introduction_and_Features.htm" format="html" processing-role="normal"></page>
-<book navtitle="Input Properties" format="html" processing-role="normal"></book>
-<book navtitle="Input" format="html" processing-role="normal"></book>
 <page href="../contents/Getting_Started.htm" format="html" processing-role="normal"></page>
+<page href="../contents/Introduction_and_Features.htm" format="html" processing-role="normal"></page>
+<book navtitle="Inputs" format="html" processing-role="normal">
+  <book navtitle="Add Input" format="html" processing-role="normal">
+    <page href="../contents/Inputs/Add_Input/CG_Templ.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Inputs/Add_Input/new_topic.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Inputs/Add_Input/New_Topic1.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Inputs/Add_Input/Photos.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Inputs/Add_Input/Pin.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Inputs/Add_Input/Stream.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Inputs/Add_Input/Video.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="Input Buttons" format="html" processing-role="normal">
+    <page href="../contents/Inputs/Input_Buttons/1,2,3,4(Overlay).htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Inputs/Input_Buttons/Audi.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Inputs/Input_Buttons/CG_Ed.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Inputs/Input_Buttons/Delete.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Inputs/Input_Buttons/Effect.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Inputs/Input_Buttons/Play.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Inputs/Input_Buttons/Properties.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Inputs/Input_Buttons/Quick_Play.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Inputs/Input_Buttons/Settings.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="Input Settings" format="html" processing-role="normal">
+    <page href="../contents/Inputs/Input_Settings/Advan.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Inputs/Input_Settings/General.htm" format="html" processing-role="normal"></page>
+  </book>
+</book>
+<book navtitle="Input Properties" format="html" processing-role="normal">
+  <page href="../contents/Input_Properties/Audio_Pr.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Input_Properties/CG_Properties.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Input_Properties/Photos_Properties.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Input_Properties/Video_Properties.htm" format="html" processing-role="normal"></page>
+</book>
+<book navtitle="Projects" format="html" processing-role="normal">
+  <page href="../contents/Projects/New_Project.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Projects/Open_Project.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Projects/Save_Save_As_Project.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Projects/Theme.htm" format="html" processing-role="normal"></page>
+</book>
 </map>
