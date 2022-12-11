@@ -1,0 +1,178 @@
+/*Created with Adobe RoboHelp*/
+a {
+  text-decoration: underline;
+}
+/*TOC Styling*/
+div.pdf-toc-body {}
+h1.pdf-toc-title {}
+a.pdf-toc-level-1 {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+a.pdf-toc-level-2 {
+  font-size: 16px;
+  text-decoration: none;
+}
+a.pdf-toc-level-3 {
+  font-size: 14px;
+  text-decoration: none;
+}
+a.pdf-toc-level-4 {
+  font-size: 14px;
+  text-decoration: none;
+}
+a.pdf-toc-level-5 {
+  font-size: 14px;
+  text-decoration: none;
+}
+a.pdf-toc-level-6 {
+  font-size: 14px;
+  text-decoration: none;
+}
+/*Index Styling*/
+div.book-idx-body {
+  column-count: 2;
+  column-fill: balance;
+}
+h1.book-idx-title {
+  column-span: all;
+}
+div.book-idx-unit {}
+p.book-idx-keyword {}
+span.book-idx-name {}
+a.book-idx-link {
+  text-decoration: none;
+}
+div.book-idx-child {
+  padding-left: 10px;
+}
+/*Glossary Styling*/
+div.book-glo-body {}
+h1.book-glo-title {}
+div.book-glo-unit {}
+p.book-glo-term {
+  font-weight: bold;
+}
+p.book-glo-definition {}
+ol.Decimal {
+  list-style: decimal;
+}
+ol.RoundSquare {
+  list-style: disc;
+}
+ol.RoundSquare>li>ol {
+  list-style: square;
+}
+ol.RoundSquare>li>ol>li>ol {
+  list-style: circle;
+}
+ol.RoundSquare>li>ol>li>ol>li>ol {
+  list-style: disc;
+}
+ol.RoundSquare>li>ol>li>ol>li>ol>li>ol {
+  list-style: square;
+}
+ol.RoundSquare>li>ol>li>ol>li>ol>li>ol>li>ol {
+  list-style: circle;
+}
+ol.AlphaNumeric {
+  list-style: decimal;
+}
+ol.AlphaNumeric>li>ol {
+  list-style: lower-alpha;
+}
+ol.AlphaNumeric>li>ol>li>ol {
+  list-style: lower-roman;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol {
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  counter-reset: item4;
+  list-style: none;
+  padding-left: var(--prefix-size);
+  margin-left: calc(var(--list-indent) - var(--prefix-size));
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li {
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  position: relative;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item4;
+  content: "("counter(item4, decimal)")";
+  text-align: right;
+  position: absolute;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+  overflow: hidden;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li>ol {
+  list-style: none;
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  counter-reset: item5;
+  padding-left: var(--prefix-size);
+  margin-left: calc(var(--list-indent) - var(--prefix-size));
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item5;
+  content: "("counter(item5, lower-alpha)")";
+  text-align: right;
+  position: absolute;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+  overflow: hidden;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li>ol>li {
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  position: relative;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li>ol>li>ol {
+  list-style: none;
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  counter-reset: item6;
+  padding-left: var(--prefix-size);
+  margin-left: calc(var(--list-indent) - var(--prefix-size));
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item6;
+  content: "("counter(item6, lower-roman)")";
+  text-align: right;
+  position: absolute;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+  overflow: hidden;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li>ol>li>ol>li {
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  position: relative;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+ol.LowerAlpha {
+  list-style: lower-alpha;
+}
+ul.Square {
+  list-style: square;
+}
