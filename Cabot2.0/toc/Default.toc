@@ -6,8 +6,8 @@
 <book navtitle="Inputs" format="html" processing-role="normal">
   <book navtitle="Add Input" format="html" processing-role="normal">
     <page href="../contents/Inputs/Add_Input/CG_Templ.htm" format="html" processing-role="normal"></page>
-    <page href="../contents/Inputs/Add_Input/new_topic.htm" format="html" processing-role="normal"></page>
-    <page href="../contents/Inputs/Add_Input/New_Topic1.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Inputs/Add_Input/aduio.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Inputs/Add_Input/image.htm" format="html" processing-role="normal"></page>
     <page href="../contents/Inputs/Add_Input/Photos.htm" format="html" processing-role="normal"></page>
     <page href="../contents/Inputs/Add_Input/Pin.htm" format="html" processing-role="normal"></page>
     <page href="../contents/Inputs/Add_Input/Stream.htm" format="html" processing-role="normal"></page>
